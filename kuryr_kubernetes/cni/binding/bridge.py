@@ -14,7 +14,7 @@
 #    under the License.
 import os
 from oslo_config import cfg
-from oslo_log import log
+import logging as log 
 
 from kuryr_kubernetes.cni.binding import base as b_base
 from kuryr_kubernetes.handlers import health

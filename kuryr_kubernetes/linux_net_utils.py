@@ -20,7 +20,7 @@
 """ Implements linux net utils"""
 
 from oslo_concurrency import processutils
-from oslo_log import log as logging
+import logging
 
 LOG = logging.getLogger(__name__)
 

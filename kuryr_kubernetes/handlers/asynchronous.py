@@ -17,7 +17,7 @@ import itertools
 from six.moves import queue as six_queue
 import time
 
-from oslo_log import log as logging
+import logging
 
 
 from kuryr_kubernetes.handlers import base

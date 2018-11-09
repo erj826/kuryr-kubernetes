@@ -15,7 +15,7 @@ import sys
 from kuryr.lib._i18n import _
 from kuryr.lib import config as lib_config
 from oslo_config import cfg
-from oslo_log import log as logging
+import logging
 
 from kuryr_kubernetes import version
 

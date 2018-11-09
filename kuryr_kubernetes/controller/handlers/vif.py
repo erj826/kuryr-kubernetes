@@ -13,7 +13,7 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-from oslo_log import log as logging
+import logging
 from oslo_serialization import jsonutils
 
 from kuryr_kubernetes import clients

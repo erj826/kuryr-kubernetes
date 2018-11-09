@@ -19,7 +19,7 @@ from kuryr.lib._i18n import _
 from oslo_concurrency import lockutils
 from oslo_concurrency import processutils
 from oslo_config import cfg
-from oslo_log import log as logging
+import logging
 
 from kuryr_kubernetes.cni.binding import base as b_base
 from kuryr_kubernetes import config

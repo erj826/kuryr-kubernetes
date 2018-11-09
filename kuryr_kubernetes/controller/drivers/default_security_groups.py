@@ -14,7 +14,7 @@
 #    under the License.
 
 from oslo_config import cfg
-from oslo_log import log as logging
+import logging
 
 from kuryr_kubernetes import config
 from kuryr_kubernetes.controller.drivers import base

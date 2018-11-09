@@ -15,7 +15,7 @@
 import abc
 from kuryr_kubernetes import clients
 from neutronclient.common import exceptions as n_exc
-from oslo_log import log as logging
+import logging
 import six
 
 LOG = logging.getLogger(__name__)

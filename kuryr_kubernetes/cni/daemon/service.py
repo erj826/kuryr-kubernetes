@@ -29,7 +29,7 @@ import os_vif
 from os_vif.objects import base
 from oslo_concurrency import lockutils
 from oslo_config import cfg
-from oslo_log import log as logging
+import logging
 from oslo_serialization import jsonutils
 
 from kuryr_kubernetes import clients

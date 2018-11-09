@@ -18,7 +18,7 @@ import six
 from kuryr.lib import exceptions as kl_exc
 from neutronclient.common import exceptions as n_exc
 from oslo_config import cfg as oslo_cfg
-from oslo_log import log as logging
+import logging
 
 from kuryr_kubernetes.controller.drivers import neutron_vif
 

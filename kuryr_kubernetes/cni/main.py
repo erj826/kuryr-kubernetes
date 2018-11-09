@@ -20,8 +20,7 @@ import sys
 
 import os_vif
 from oslo_config import cfg
-from oslo_log import log as logging
-from oslo_log import versionutils
+import logging
 from oslo_serialization import jsonutils
 
 from kuryr_kubernetes.cni import api as cni_api
@@ -59,7 +58,7 @@ def run():
     if CONF.cni_daemon.daemon_enabled:
         runner = cni_api.CNIDaemonizedRunner()
     else:
-        versionutils.deprecation_warning(
+        LOG.warning(
             'Deploying kuryr-kubernetes without kuryr-daemon service', 'R')
         runner = cni_api.CNIStandaloneRunner(k8s_cni.K8sCNIPlugin())
     LOG.info("Using '%s' ", runner.__class__.__name__)

@@ -23,7 +23,7 @@ import requests
 
 from kuryr.lib._i18n import _
 from os_vif.objects import base
-from oslo_log import log as logging
+import logging
 from oslo_serialization import jsonutils
 
 from kuryr_kubernetes.cni import utils

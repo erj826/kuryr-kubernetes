@@ -17,7 +17,7 @@ from six.moves import http_client as httplib
 
 from flask import Flask
 from oslo_config import cfg
-from oslo_log import log as logging
+import logging
 
 from kuryr.lib._i18n import _
 from kuryr.lib import config as kuryr_config

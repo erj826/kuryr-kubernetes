@@ -19,7 +19,7 @@ from kuryr_kubernetes import config
 from kuryr_kubernetes import constants as k_const
 from kuryr_kubernetes.controller.drivers import base as drv_base
 from kuryr_kubernetes import exceptions
-from oslo_log import log as logging
+import logging
 
 
 _OCP_ROUTE_HANDLER = 'ocproute'

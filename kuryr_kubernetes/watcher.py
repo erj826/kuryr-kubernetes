@@ -20,7 +20,7 @@ from kuryr_kubernetes import clients
 from kuryr_kubernetes.handlers import health
 from kuryr_kubernetes import utils
 from oslo_config import cfg
-from oslo_log import log as logging
+import logging
 
 LOG = logging.getLogger(__name__)
 CONF = cfg.CONF

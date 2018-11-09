@@ -14,7 +14,7 @@
 #    under the License.
 
 from kuryr.lib._i18n import _
-from oslo_log import log as logging
+import logging
 from oslo_serialization import jsonutils
 
 from kuryr_kubernetes import clients

@@ -18,7 +18,7 @@ from os_vif import objects as obj_vif
 from os_vif.objects import base
 from oslo_concurrency import lockutils
 from oslo_config import cfg
-from oslo_log import log as logging
+import logging
 
 from kuryr_kubernetes.cni.binding import base as b_base
 from kuryr_kubernetes.cni.plugins import base as base_cni

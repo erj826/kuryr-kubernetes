@@ -21,7 +21,7 @@ from kuryr_kubernetes import clients
 from kuryr_kubernetes.cni import utils
 from kuryr_kubernetes import exceptions as exc
 from oslo_config import cfg
-from oslo_log import log as logging
+import logging
 
 LOG = logging.getLogger(__name__)
 CONF = cfg.CONF

@@ -17,7 +17,7 @@ from kuryr_kubernetes.controller.drivers import base
 from kuryr_kubernetes.controller.drivers import public_ip
 from kuryr_kubernetes.objects import lbaas as obj_lbaas
 from oslo_config import cfg
-from oslo_log import log as logging
+import logging
 
 LOG = logging.getLogger(__name__)
 

@@ -16,7 +16,7 @@
 import itertools
 import time
 
-from oslo_log import log as logging
+import logging
 from oslo_utils import excutils
 
 from kuryr_kubernetes import exceptions

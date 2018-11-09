@@ -11,8 +11,6 @@
 # under the License.
 import copy
 
-from oslo_log import _options
-
 from kuryr.lib import opts as lib_opts
 from kuryr_kubernetes.cni import health as cni_health
 from kuryr_kubernetes import config
@@ -62,4 +60,4 @@ def list_kuryr_opts():
     """
 
     return ([(k, copy.deepcopy(o)) for k, o in _kuryr_k8s_opts] +
-            lib_opts.list_kuryr_opts() + _options.list_opts())
+            lib_opts.list_kuryr_opts())

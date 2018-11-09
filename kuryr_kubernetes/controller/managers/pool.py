@@ -21,7 +21,7 @@ from six.moves.socketserver import ThreadingUnixStreamServer
 from neutronclient.common import exceptions as n_exc
 
 from oslo_config import cfg as oslo_cfg
-from oslo_log import log as logging
+import logging
 from oslo_serialization import jsonutils
 
 from kuryr.lib._i18n import _

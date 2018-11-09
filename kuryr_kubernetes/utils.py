@@ -20,7 +20,7 @@ import requests
 from os_vif import objects
 from oslo_cache import core as cache
 from oslo_config import cfg
-from oslo_log import log
+import logging as log
 from oslo_serialization import jsonutils
 
 from kuryr_kubernetes import clients

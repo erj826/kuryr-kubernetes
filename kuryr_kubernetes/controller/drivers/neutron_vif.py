@@ -15,7 +15,7 @@
 
 from kuryr.lib import constants as kl_const
 from neutronclient.common import exceptions as n_exc
-from oslo_log import log as logging
+import logging
 
 from kuryr_kubernetes import clients
 from kuryr_kubernetes import config

@@ -13,7 +13,7 @@
 #    under the License.
 
 from kuryr.lib import constants as kl_const
-from oslo_log import log as logging
+import logging
 
 from kuryr_kubernetes import clients
 from kuryr_kubernetes import config

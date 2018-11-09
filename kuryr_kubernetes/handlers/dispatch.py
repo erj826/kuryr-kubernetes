@@ -16,7 +16,7 @@
 import abc
 import six
 
-from oslo_log import log as logging
+import logging
 
 from kuryr_kubernetes.handlers import base as h_base
 

@@ -15,7 +15,7 @@
 import threading
 
 from neutronclient.common import exceptions as n_exc
-from oslo_log import log as logging
+import logging
 
 from kuryr_kubernetes import clients
 from kuryr_kubernetes.controller.drivers import nested_vif

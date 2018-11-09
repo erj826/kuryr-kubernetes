@@ -24,7 +24,7 @@ from kuryr_kubernetes.handlers import k8s_base
 from kuryr_kubernetes.objects import lbaas as obj_lbaas
 from kuryr_kubernetes.objects import route as obj_route
 from kuryr_kubernetes.platform import constants as ocp_const
-from oslo_log import log as logging
+import logging
 from oslo_serialization import jsonutils
 
 LOG = logging.getLogger(__name__)

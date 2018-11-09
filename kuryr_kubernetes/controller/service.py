@@ -19,7 +19,7 @@ import sys
 
 import os_vif
 from oslo_config import cfg
-from oslo_log import log as logging
+import logging
 from oslo_service import periodic_task
 from oslo_service import service
 from stevedore.named import NamedExtensionManager

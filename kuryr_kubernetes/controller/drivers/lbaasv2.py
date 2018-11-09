@@ -23,7 +23,7 @@ import requests
 
 from neutronclient.common import exceptions as n_exc
 from oslo_config import cfg
-from oslo_log import log as logging
+import logging
 from oslo_utils import timeutils
 
 from kuryr_kubernetes import clients

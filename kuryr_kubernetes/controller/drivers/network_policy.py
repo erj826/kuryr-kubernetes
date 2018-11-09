@@ -13,7 +13,7 @@
 # limitations under the License.
 
 
-from oslo_log import log as logging
+import logging
 
 from neutronclient.common import exceptions as n_exc
 

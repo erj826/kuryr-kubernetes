@@ -25,7 +25,7 @@ from neutronclient.common import exceptions as n_exc
 from oslo_cache import core as cache
 from oslo_concurrency import lockutils
 from oslo_config import cfg as oslo_cfg
-from oslo_log import log as logging
+import logging
 from oslo_serialization import jsonutils
 
 from kuryr_kubernetes import clients
