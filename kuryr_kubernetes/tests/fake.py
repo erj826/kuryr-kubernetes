@@ -17,7 +17,7 @@ import uuid
 
 from os_vif import objects as osv_objects
 from os_vif.objects import vif as osv_vif
-from oslo_serialization import jsonutils
+import json as jsonutils
 
 
 def _fake_vif(cls=osv_vif.VIFOpenVSwitch):

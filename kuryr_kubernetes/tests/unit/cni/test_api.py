@@ -19,7 +19,7 @@ from six import StringIO
 import requests
 
 from oslo_config import cfg
-from oslo_serialization import jsonutils
+import json as jsonutils
 
 from kuryr_kubernetes.cni import api
 from kuryr_kubernetes.cni.plugins import k8s_cni

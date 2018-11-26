@@ -26,7 +26,7 @@ from oslo_cache import core as cache
 from oslo_concurrency import lockutils
 from oslo_config import cfg as oslo_cfg
 import logging
-from oslo_serialization import jsonutils
+import json as jsonutils
 
 from kuryr_kubernetes import clients
 from kuryr_kubernetes import config

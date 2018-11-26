@@ -19,7 +19,7 @@ from kuryr_kubernetes.controller.drivers import base as drivers
 from kuryr_kubernetes.controller.drivers import multi_vif
 from kuryr_kubernetes import exceptions
 from kuryr_kubernetes.tests import base as test_base
-from oslo_serialization import jsonutils
+import json as jsonutils
 
 
 def get_pod_obj():

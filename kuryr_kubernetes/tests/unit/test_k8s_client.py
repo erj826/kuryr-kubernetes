@@ -17,7 +17,7 @@ import mock
 import os
 import tempfile
 
-from oslo_serialization import jsonutils
+import json as jsonutils
 import requests
 
 from kuryr_kubernetes import exceptions as exc

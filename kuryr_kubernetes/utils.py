@@ -21,7 +21,7 @@ from os_vif import objects
 from oslo_cache import core as cache
 from oslo_config import cfg
 import logging as log
-from oslo_serialization import jsonutils
+import json as jsonutils
 
 from kuryr_kubernetes import clients
 from kuryr_kubernetes.objects import vif

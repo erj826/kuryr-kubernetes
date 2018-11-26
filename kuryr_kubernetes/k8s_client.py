@@ -17,7 +17,7 @@ import itertools
 import os
 
 import logging
-from oslo_serialization import jsonutils
+import json as jsonutils
 import requests
 
 from kuryr.lib._i18n import _

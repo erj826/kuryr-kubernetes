@@ -27,7 +27,7 @@ import prettytable
 import os_vif
 from os_vif.objects import base
 from oslo_config import cfg
-from oslo_serialization import jsonutils
+import json as jsonutils
 
 from kuryr_kubernetes import clients
 from kuryr_kubernetes import config

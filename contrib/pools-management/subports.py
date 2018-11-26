@@ -15,7 +15,7 @@
 import argparse
 import socket
 
-from oslo_serialization import jsonutils
+import json as jsonutils
 from six.moves import http_client as httplib
 
 from kuryr_kubernetes import constants

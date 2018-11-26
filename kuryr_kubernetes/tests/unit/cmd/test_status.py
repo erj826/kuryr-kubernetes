@@ -14,7 +14,7 @@
 
 import mock
 
-from oslo_serialization import jsonutils
+import json as jsonutils
 import six
 
 from kuryr_kubernetes.cmd import status

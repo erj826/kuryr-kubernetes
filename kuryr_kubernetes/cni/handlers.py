@@ -18,7 +18,7 @@ import six
 
 from os_vif import objects as obj_vif
 import logging
-from oslo_serialization import jsonutils
+import json as jsonutils
 
 from kuryr_kubernetes.cni.binding import base as b_base
 from kuryr_kubernetes import constants as k_const

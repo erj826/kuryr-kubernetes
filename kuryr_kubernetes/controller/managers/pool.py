@@ -22,7 +22,7 @@ from neutronclient.common import exceptions as n_exc
 
 from oslo_config import cfg as oslo_cfg
 import logging
-from oslo_serialization import jsonutils
+import json as jsonutils
 
 from kuryr.lib._i18n import _
 

@@ -19,7 +19,7 @@ import uuid
 
 from neutronclient.common import exceptions as n_exc
 from oslo_config import cfg as oslo_cfg
-from oslo_serialization import jsonutils
+import json as jsonutils
 
 from os_vif.objects import vif as osv_vif
 

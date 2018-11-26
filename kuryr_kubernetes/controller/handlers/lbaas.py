@@ -15,7 +15,7 @@
 
 from kuryr.lib._i18n import _
 import logging
-from oslo_serialization import jsonutils
+import json as jsonutils
 
 from kuryr_kubernetes import clients
 from kuryr_kubernetes import config

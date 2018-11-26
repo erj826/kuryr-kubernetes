@@ -14,7 +14,7 @@
 
 import mock
 
-from oslo_serialization import jsonutils
+import json as jsonutils
 
 from kuryr_kubernetes.cni.daemon import service
 from kuryr_kubernetes.cni.plugins import k8s_cni_registry

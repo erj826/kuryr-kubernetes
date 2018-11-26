@@ -21,7 +21,7 @@ import sys
 import os_vif
 from oslo_config import cfg
 import logging
-from oslo_serialization import jsonutils
+import json as jsonutils
 
 from kuryr_kubernetes.cni import api as cni_api
 from kuryr_kubernetes.cni.plugins import k8s_cni

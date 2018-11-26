@@ -18,7 +18,7 @@ try:
 except ImportError:
     from http.server import BaseHTTPRequestHandler
 
-from oslo_serialization import jsonutils
+import json as jsonutils
 
 from kuryr_kubernetes.controller.managers import pool as m_pool
 from kuryr_kubernetes.tests import base as test_base
